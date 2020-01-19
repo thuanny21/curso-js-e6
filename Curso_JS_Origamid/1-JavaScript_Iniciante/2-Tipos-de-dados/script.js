@@ -1,6 +1,7 @@
 // Declare uma variável contendo uma string
 var nome = 'thuanny';
 console.log(nome);
+console.log(typeof nome);
 
 // Declare uma variável contendo um número dentro de uma string
 var num = '18';
