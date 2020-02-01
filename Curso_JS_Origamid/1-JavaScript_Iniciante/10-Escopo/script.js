@@ -6,6 +6,14 @@
   }
   console.log(var, marca, portas);
   
+  //Resolução
+  {
+    var cor = 'preto';
+    const marca = 'Fiat';
+    let portas = 4;
+    console.log(cor, marca, portas);
+  }
+
   // Como corrigir o erro abaixo?
   function somarDois(x) {
     const dois = 2;
@@ -16,6 +24,18 @@
   }
   somarDois(4);
   dividirDois(6);
+
+  //Resolução
+  const dois = 2;
+  function somarDois(x) {    
+    return x + dois;
+  }
+  function dividirDois(x) {
+    return x / dois;
+  }
+  console.log(somarDois(4));
+  console.log(dividirDois(6));
+
   
   // O que fazer para total retornar 500?
   var numero = 50;
