@@ -41,6 +41,7 @@ addEventListener('scroll', function() {
 })
 
 //Corrija o erro abaixo
+//Correção
 var totalPaises = 193;
 
 function precisoVisitar(paisesVisitados) {    
